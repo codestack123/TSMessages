@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "TSMessages"
   s.version      = "5.0.1"
-  s.summary      = "Modified TSMessages."
+  s.summary      = "Modified TSMessages"
 
   s.description  = <<-DESC
                    A longer description of TSMessages in Markdown format.
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
    s.ios.deployment_target = "7.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/codestack123/TSMessages.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/codestack123/TSMessages.git", :tag => "5.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Pod/Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Classes", "Pod/Classes/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
