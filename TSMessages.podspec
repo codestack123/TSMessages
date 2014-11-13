@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/codestack123/TSMessages.git", :tag => "5.0.1" }
+  s.source       = { :git => 'https://github.com/codestack123/TSMessages.git', :tag => '5.0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
